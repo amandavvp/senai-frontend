@@ -1,6 +1,5 @@
 #preHeader{
-    
-    font-size: 15px;
+    font-size: smaller;
     text-align: right;
     color: #bc562b;
     width: 95%;
@@ -9,7 +8,7 @@
 
 font{
     font-family: 'Phenomena', sans-serif;  
-    font-size: 20px;                                              
+    font-size: larger;                                              
 }
 
 
@@ -34,7 +33,6 @@ main{
 }
 
 .rede-sociais ul li{
-    
     display: inline-block;
     list-style: none;
     margin: 5px;
@@ -46,16 +44,14 @@ main{
     float: right;
 }
 
-marquee{
-    
+marquee{    
     font-size: 10px;
     color: rgb(255, 255, 255);
     background-color: #bc562b;
     height: 15px;
 }
 
-#quemSomos{
-    
+#quemSomos{    
         border-collapse: collapse;
         border-radius: 3px; 
         overflow: hidden; 
@@ -68,9 +64,7 @@ marquee{
     -webkit-background-clip: text;
     color: transparent;
     font-size: 20px; /* Ajuste o tamanho da fonte conforme necessário */
-    text-align: center; /* Alinhe o texto ao centro, se desejar */
-    
-    
+    text-align: center; /* Alinhe o texto ao centro, se desejar */       
 }
 
   

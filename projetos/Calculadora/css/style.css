@@ -1,0 +1,96 @@
+.degrade{
+    background-image: url(/projetos/Calculadora/image/bgMAT3.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    color: rgb(35, 35, 35);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+a{
+    color: white;
+}
+
+.calculadora{
+    position: absolute;
+    background-color: rgb(170, 170, 179,0.8);
+    top: 51.7%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    border-color:rgb(77, 76, 76) ;
+    border-style: solid;
+    padding: 15px;
+}
+
+.container{
+    background-color:rgb(250, 140, 76);
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.links{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.links a{
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+
+}
+
+.links :hover{
+    color:rgb(247, 113, 35) ;
+}
+
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border: none;
+    background-color: rgb(250, 140, 76);
+    color: white;
+    border-radius: 5px;
+    border-color:rgb(77, 76, 76) ;
+    border-style:solid;
+    margin: 3px;
+}
+
+.botao:hover{
+    background-color: rgb(250, 140, 76);
+}
+
+#resultado{
+    background-color: white;
+    border-radius: 5px;
+    border-color:rgb(77, 76, 76) ;
+    border-style:solid;
+    width: 215px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    text-align: right;
+    color:rgb(76, 73, 73);
+    font-size: 25px;
+}
+
+footer{
+    text-align: center;
+    font-size: smaller;
+    background:rgb(250, 140, 76);
+    color: white;
+    padding: 10px;
+    overflow: hidden;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+}

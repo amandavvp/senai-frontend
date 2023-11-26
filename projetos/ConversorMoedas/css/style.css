@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    
+    
+  }
+  
+  h2 {
+    color: #e6dfdf;
+  }
+
+  p{
+    font-size: smaller;
+    color: #e6dfdf;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input,
+  select{
+      width: 150px;
+      height: 30px;
+      font-size: 15px;
+      background-color:rgb(32, 48, 97);
+      border:none;
+      color:#e6dfdf;
+      margin:3px;	
+  }
+  
+  button {
+      width: 150px;
+      height: 30px;
+      font-size: 15px;
+      background-color:rgb(32, 48, 97);
+      border:none;
+      color:#e6dfdf;
+      margin:3px;
+  }
+  
+  button:hover {
+    background-color:rgb(22, 36, 77);
+    color: #e6dfdf;
+  }
+  
+  .degrade{
+      background-image: url(/projetos/ConversorMoedas/image/bgBV.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height:93.5vh;
+      color: #e6dfdf;
+      font-family:Comic Sans Ms;
+      text-align:center;
+  }	
+  
+  .container{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align:center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .outer-container {
+      background: rgb(46, 74, 166);
+      padding: 10px;
+      border-radius: 10px;
+      overflow: hidden;
+  }
+  
+  .conversorMoedas{
+      position:absolute;
+      background-color: rgba(46, 74, 166, 0.753);
+      top: 50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      border-radius:15px;
+      padding:15px;
+  }
+  
+  .result-container{
+      margin-top: 10px;
+      /*background-color: #f2f2f2;*/
+      padding: 0px;
+      border-radius: 5px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align:center !important;
+  }
+  
+  footer {
+      background: rgb(46, 74, 166);
+      color: #e6dfdf;
+      padding: 10px;
+      text-align: center;
+  }
+  a:visited {
+      color: darkgrey;
+  }
+  
+  .social-icons {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px;
+  }
+  
+  .social-icons a {
+      color: #e6dfdf;
+      font-size: 20px;
+      margin: 0 10px;
+  }
+  
+  .social-icons a:hover {
+      color: rgb(22, 36, 77) /* Ou a cor desejada para o hover */
+  }
