@@ -46,7 +46,7 @@ body {
   }
   
   .degrade{
-      background-image: url(/projetos/ConversorMoedas/image/bgBV.png);
+      background-image: url(../image/bgBV.png);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
