@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    background-image: url(/projetos/ConversorTemperatura/image/temperatura.jpg);
+    background-image: url(../image/temperatura.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;     
