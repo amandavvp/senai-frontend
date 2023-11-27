@@ -44,7 +44,8 @@ main{
     float: right;
 }
 
-marquee{    
+marquee{
+    margin-top: -25px;    
     font-size: 10px;
     color: rgb(255, 255, 255);
     background-color: #bc562b;

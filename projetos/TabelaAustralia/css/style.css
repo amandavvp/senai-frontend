@@ -1,5 +1,11 @@
 
+a{
+    color:black;
+}
 
+a hover{
+    color: rgb(103, 197, 238);
+}
 
 .outer-container {
     background: rgb(103, 197, 238, 0.8);
@@ -25,6 +31,7 @@
 }
 
 footer {
+    margin-top: 40vh;
     background: rgb(103, 197, 238, 0.8);
     color: #e6dfdf;
     padding: 10px;
