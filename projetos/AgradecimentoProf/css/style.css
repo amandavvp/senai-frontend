@@ -1,0 +1,25 @@
+body{
+    background-image: url(../image/natureza-morta-de-livros-versus-tecnologia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    margin-top: 20%;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    padding: 50px;
+    background-image: url(../image/natureza-morta-de-livros-versus-tecnologia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #000;
+  }
+  #thank-you-text {
+    margin-top: 20%;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    display: none;
+
+  }
